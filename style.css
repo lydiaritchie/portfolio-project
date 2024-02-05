@@ -42,10 +42,10 @@ main h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-a:link {color:#4281A4;}
-a:visted {color:black;}
-a:hover {color:deepskyblue;}
-a:active {color:#00678a;}
+a:link {color:#004266;}
+a:visted {color:purple;}
+a:hover {color: #ffffff;}
+a:active {color:#870ae6;}
 
 a {
   background-color: lightblue;
