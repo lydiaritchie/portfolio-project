@@ -1,1 +1,2 @@
-# first-website
+# portfolio-project
+by Lydia Ritchie
