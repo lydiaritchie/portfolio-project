@@ -4,58 +4,55 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>First Website</title>
-    <link
-href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
   </head>
-  <body> 
-    <header>Lydia Ritchie</header>
+<body> 
+  <header>Lydia Ritchie</header>
     <main>
       <h1>Lydia Ritchie</h1>
       <h3>Software Developer</h3>
 
       <!-- Intro section -->
-      <article>
-        <p>Intro: I'm Lydia, a software developer based out of Chicago!</p>
+      <section class="text">
+        <p>I'm Lydia, a software developer based out of Chicago!</p>
 
         <p>
           I studied art in college and am excited to combine my artistic background with web development.
         </p>
-      </article>
+      </section>
 
+      <hr>
       <!--About section -->
-      <article>
+      <section class="text" >
         <p>
           As an artist I make pottery, work in graphic design and work as a videographer and editor. I have previous experience in software and am excited to add web development to my portfolio. Having learned about design, color and composition in school, I am excited to apply these skills to web development.
         </p>
-
         <p>
-          I am looking forward to working with other developers and create websties for future clients!
+          I am looking forward to working with other developers and create websites for future clients!
         </p>
-      </article>
-
+      </section>
+        <hr>
       <!-- Contact section -->
-      <article>
-        <p>
-          I would love to hear from you!
-        </p>
-        <!-- divider for list to sit in -->
-        <div>
-          <!-- unordered list of contact links -->
-          <ul>
-            <li>
-              <a href="https://github.com/lydiaritchie">Github</a>
-            </li>
-            <li>
-              <a href="www.linkedin.com/in/lydia-ritchie-69bba9222">LinkedIn</a>
-            </li>
-          </ul>
+      <section>
+        <!-- title and paragraph -->
+        <div class="center">
+          <h3>Contact:</h3>
+          <p> I would love to hear from you! </p>
+          <br>
         </div>
-      </article>
+        <!-- divider for list -->
+        <div class="center">
+          <!-- buttons for links -->
+              <a class="small" href="https://github.com/lydiaritchie">Github</a>
+              <br><br><br>
+              <a class="big" href="www.linkedin.com/in/lydia-ritchie-69bba9222">LinkedIn</a>
+        </div>
+      </section>
     </main>
+  <footer>
+    Lydia Ritchie
+  </footer>
     <script src="script.js"></script>
   </body>
 </html>
