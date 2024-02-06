@@ -1,38 +1,49 @@
-header {
+/* apply the box sizing ruleset to all elements on the page*/
+*{
+  box-sizing: border-box;
+}
+
+/* class to format the header and footer, generic enough to be used across multiple pages*/
+.header-footer-format {
   padding: 15px 30px 15px 30px;
   background-color: lightblue;
   text-align: center;
+  font-size: 12px;
 }
 
+/* formatting the horizontal ruler */
  hr {
   width: 600px;
   height: 1px;
   background-color: #4281A4;
+  border: none;
 }
 
-body {
-  box-sizing: border-box;
-}
-
-h1{
+/* class to format the all the headings on the page. Generic enough to be used across different titles and web pages */
+.headings {
   color: #4281A4;
-  font-size: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* h1 specific rulesets */
+h1{
+  font-size: 50px;
   margin-bottom: 0px;
 }
 
-main h3 {
-  text-align: center;
-  color: #4281A4;
-  padding-top: 10px;
-  margin-top: 0px;
-}
-
+/* generic class to center text */
 .center {
   text-align: center;
 }
 
+/* generic class to center and add margin to an image*/
+.image{
+  margin: 20px auto 50px auto;
+  display:block;
+}
+
+/* class to format text, generic to be used across multiple pages */
 .text {
   width: 500px;
   text-align: left;
@@ -41,29 +52,21 @@ main h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* link formatting with pseudo-classes */
 a:link {color:#004266;}
 a:visted {color:purple;}
-a:hover {color: #ffffff;}
+a:hover {color: lightblue;}
 a:active {color:#870ae6;}
 
-a {
-  background-color: lightblue;
-  border-radius: 6px;
+
+/* formatting for any lists */
+.list-container{
+  list-style-position: inside;
+  /* forcing the margin to be smaller on this specific element*/
+  margin-top: 1px; 
 }
 
-.small {
-  width: 60px;
-  padding: 10px;
-}
-
-.big {
-  width: 70px;
-  padding: 10px;
-}
-
+/*needed extra spacing specific only to the footer */
 footer {
-  padding: 15px 30px 15px 30px;
   margin-top: 30px;
-  background-color: lightblue;
-  text-align: center;
 }
