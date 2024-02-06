@@ -1,2 +1,2 @@
-# portfolio-project
+# Portfolio Project
 by Lydia Ritchie
